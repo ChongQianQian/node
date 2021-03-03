@@ -1,11 +1,11 @@
 /*
  * @Author: 云乐
  * @Date: 2021-03-03 16:55:48
- * @LastEditTime: 2021-03-03 17:04:32
+ * @LastEditTime: 2021-03-03 17:07:14
  * @LastEditors: 云乐
  * @Description: 获取实际接口数据
  * :读取远程数据，启动服务器，在服务器中显示出来；
- * :解决了跨域问题，同时学会了http中的get请求
+ * :解决了跨域问题，学习http中的get请求
  */
 const logger = require("../utils/index");
 const http = require("http");
