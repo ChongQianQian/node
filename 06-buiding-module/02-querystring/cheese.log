@@ -1,0 +1,7 @@
+[2021-03-03T14:21:39.208] [DEBUG] cheese - [Object: null prototype] { age: '18', name: 'lili', from: '北京' }
+[2021-03-03T14:21:39.214] [DEBUG] cheese - [Object: null prototype] { age: '18', name: 'lili', from: '北京' }
+[2021-03-03T14:21:39.216] [DEBUG] cheese - age:18/name:lili/from:%E5%8C%97%E4%BA%AC
+[2021-03-03T14:21:39.216] [DEBUG] cheese - age:18/name:lili/from:%E5%8C%97%E4%BA%AC
+[2021-03-03T14:21:39.216] [DEBUG] cheese - age%3D18%26name%3Dlili%26from%3D%E5%8C%97%E4%BA%AC
+[2021-03-03T14:21:39.216] [DEBUG] cheese - age=18&name=lili&from=北京
+[2021-03-03T14:21:39.216] [DEBUG] cheese - age=18&name=lili&from=北京
