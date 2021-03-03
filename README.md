@@ -1,7 +1,17 @@
-<!--
- * @Author: 云乐
- * @Date: 2021-02-02 11:30:16
- * @LastEditTime: 2021-02-02 11:30:18
- * @LastEditors: 云乐
- * @Description: 
--->
+# node package version
+- 13.4.6
+- major:13, minor:4, patch:6
+
+# npm 版本符号
+- ^：锁定major
+- ~：锁定minor
+- 空:锁定ptach
+- *：最新版本
+# node 的浏览器端调试
+`node --inspect --inspect-brk xxx.js`
+
+# node进程管理工具
+- supervisor
+- nodemon (npm i nodemon -g ;nodemon xxx.js)
+- forever
+- pm2

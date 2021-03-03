@@ -1,7 +1,7 @@
 /*
  * @Author: 云乐
  * @Date: 2021-02-24 14:04:18
- * @LastEditTime: 2021-02-24 14:22:10
+ * @LastEditTime: 2021-03-03 15:24:57
  * @LastEditors: 云乐
  * @Description: 创建服务器:这种http都是node的内置模块
  */
@@ -12,6 +12,6 @@ const serve = http.createServer((request,response)=>{
     response.write(url)//向前端写入内容
     response.end() //结束写入
 })
-serve.listen(8000,()=>{
+serve.listen(8999,()=>{
     console.log("服务器创建成功，地址是："+"http://localhost:8000")
 })
