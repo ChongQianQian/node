@@ -1,14 +1,12 @@
 /*
  * @Author: 云乐
  * @Date: 2021-03-03 14:29:19
- * @LastEditTime: 2021-03-03 16:23:21
+ * @LastEditTime: 2021-03-04 09:35:43
  * @LastEditors: 云乐
  * @Description: node内置模块：http
  */
 const logger = require("../utils/index");
 const http = require("http");
-const querystring = require("querystring");
-const { type } = require("os");
 
 const server = http.createServer((req, res) => {
   //获取url中路径

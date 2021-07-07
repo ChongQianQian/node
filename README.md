@@ -15,3 +15,12 @@
 - nodemon (npm i nodemon -g ;nodemon xxx.js)
 - forever
 - pm2
+
+# 创建express项目
+```bash
+npm install -g express-generator
+cd xxx
+express -e
+npm i
+npm run start
+```
